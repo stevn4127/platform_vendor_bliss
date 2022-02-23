@@ -9,12 +9,8 @@ PRODUCT_PACKAGES += \
     Dialer \
     Email \
     Etar \
-    ExactCalculator \
     Exchange2 \
-    messaging \
-    SimpleGalleryPro \
-	SimpleCalculator \
-	SimpleCalendar
+    messaging
 endif
 
 # Bliss Packages
@@ -24,7 +20,6 @@ PRODUCT_PACKAGES += \
     Recorder \
     LineageParts \
     LineageSettingsProvider \
-    Phonograph \
     Profiles \
     BlissUpdater \
     Seedvault \
