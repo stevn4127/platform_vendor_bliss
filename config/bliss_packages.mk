@@ -13,8 +13,8 @@ PRODUCT_PACKAGES += \
     Exchange2 \
     messaging \
     SimpleGalleryPro \
-	SimpleCalculator \
-	SimpleCalendar
+    SimpleCalculator \
+    SimpleCalendar
 endif
 
 # Bliss Packages
@@ -22,26 +22,21 @@ PRODUCT_PACKAGES += \
     DeskClock \
     LatinIME \
     Recorder \
-    LineageParts \
-    LineageSettingsProvider \
     Phonograph \
     Profiles \
     BlissUpdater \
     Seedvault \
     WallpaperPicker2 \
-    OmniStyle \
     AboutBliss \
-    GameSpace \
-    OmniJaws
+    GameSpace
 
 # Config
 PRODUCT_PACKAGES += \
     SimpleDeviceConfig
 
-# Dex preopt
+# SystemUI
 PRODUCT_DEXPREOPT_SPEED_APPS += \
-    SystemUI \
-    TrebuchetQuickStep
+    SystemUI
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     dalvik.vm.systemuicompilerfilter=speed
@@ -87,8 +82,6 @@ PRODUCT_PACKAGES += \
 
 # Themes
 PRODUCT_PACKAGES += \
-    LineageThemesStub \
-    LineageBlackTheme \
     ThemePicker
 
 # Live Wallpapers
